@@ -15,8 +15,8 @@ sudo ln -s /opt/nvim-linux64/bin/nvim /usr/local/bin/nvim
 
 ```bash
 curl https://sh.rustup.rs -sSf | sh
-# Reload the shell to update the environment
 ```
+Reload the shell to update the environment
 
 ## NVM and Node.js Installation
 
@@ -30,6 +30,7 @@ npm install -g npm
 ## LunarVim Installation
 
 The latest available version on the day of writing that was 0.9
+https://www.lunarvim.org/docs/installation
 ```bash
 LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.com/LunarVim/LunarVim/release-1.3/neovim-0.9/utils/installer/install.sh)
 ```
@@ -43,4 +44,11 @@ cd ~/.local/share/fonts
 
 Download [https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts](Nerd Fonts) and set them up as the default font in the terminal
 Updating the font cache may be needed `fc-cache -f -v`
+
+
+# Cloning configuration
+
+```bash
+git clone git@github.com:tmek1244/lvim-config.git ~/.config/lvim/
+```
 

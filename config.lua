@@ -11,6 +11,10 @@ lvim.leader = "space"
 
 lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 
+lvim.builtin.which_key.mappings.g["s"] = {
+  "<cmd>Telescope git_status<cr>", "Git status"
+}
+
 lvim.lang.python.formatter = {
   {
     exe = "black",
